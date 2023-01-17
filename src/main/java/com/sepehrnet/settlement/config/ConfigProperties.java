@@ -9,8 +9,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Profile;
 
 
-@Getter
 @Setter
+@Getter
 @Slf4j
 @ConfigurationProperties(prefix = "ftp")
 public class ConfigProperties {
